@@ -11,5 +11,5 @@ gulp.task('sass', function(){
 gulp.task('pug', function(){
     return gulp.src('App/pug/index.pug')
     .pipe(pug())
-    .pipe(gulp.dest('index.html'))
+    .pipe(gulp.dest('index'))
 })

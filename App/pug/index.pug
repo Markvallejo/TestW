@@ -4,12 +4,12 @@ meta(http-equiv='X-UA-Compatible', content='ie=edge')
 title Formulario Cotizacion
 link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
 link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i')
-link(rel='icon', type='images/png', href='images/logo-fiat.png')
-link(rel='stylesheet', href='css/Estilo.css')
+link(rel='icon', type='images/png', href='App/images/logo-fiat.png')
+link(rel='stylesheet', href='App/css/Estilo.css')
 nav#header.navbar.navbar-expand-lg.navbar-expand-md.navbar-light.bg-light.sticky-top
   .container
     a.navbar-brand(href='index.html')
-      img.rounded.logo(src='images/logo-fiat.png', alt='Logo Fiat')
+      img.rounded.logo(src='App/images/logo-fiat.png', alt='Logo Fiat')
     button#button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
       span.navbar-toggler-icon
     .collapse.navbar-collapse.ms-navbar-collapse#navbarSupportedContent
@@ -26,7 +26,7 @@ nav#header.navbar.navbar-expand-lg.navbar-expand-md.navbar-light.bg-light.sticky
           a.nav-link#menu4(href='#principal') DISTRIBUIDORES
       li.nav-item.nav-link.menus
         div
-          img(src='images/menu.png', height='18px')
+          img(src='App/images/menu.png', height='18px')
 section.primera
   section.principal#principal
     br
@@ -37,7 +37,7 @@ section.primera
       span.line
     .text-elegir Elige el tuyo
     .contenedor
-      img.auto(src='images/fiat.png', alt='')
+      img.auto(src='App/images/fiat.png', alt='')
   section.segunda
     section.cotizar
       .formulario#cotizar
@@ -122,18 +122,18 @@ section.primera
               .form-group
                 // <input type="button" id="bttelefono" class="etiqueta form-control forma" value="TELÉFONO"> 
                 button#bttelefono.etiqueta.forma(type='button')
-                  img#Img_telefono(src='images/telefono.png', width='10px')
+                  img#Img_telefono(src='App/images/telefono.png', width='10px')
                   |  
-                  img.ocultar#phone_w(src='images/phone.png', width='13px')
+                  img.ocultar#phone_w(src='App/images/phone.png', width='13px')
                   | TELÉFONO
           .col-4
             form
               .form-group
                 // <input type="button" id="btemail" class="etiqueta form-control forma" value="EMAIL"> 
                 button#btemail.etiqueta.forma(type='button')
-                  img#Img_mail(src='images/mail.png', width='14px', height='15px')
+                  img#Img_mail(src='App/images/mail.png', width='14px', height='15px')
                   |  
-                  img.ocultar#mail_w(src='images/mail_white.jpg', width='14px', height='10')
+                  img.ocultar#mail_w(src='App/images/mail_white.jpg', width='14px', height='10')
                   |  EMAIL
           .col-4
             form
@@ -203,5 +203,5 @@ section.primera
 script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='Marcos Vallejo')
 script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1', crossorigin='Marcos Vallejo')
 script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='Marcos Vallejo')
-script(src='../java/index.js')
+script(src='App/java/index.js')
 footer
