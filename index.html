@@ -1,1 +1,293 @@
-<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><title>Formulario Cotizacion</title><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i"/><link rel="icon" type="images/png" href="App/images/logo-fiat.png"/><link rel="stylesheet" href="App/css/Estilo.css"/><nav class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-light sticky-top" id="header"><div class="container"><a class="navbar-brand" href="index.html"><img class="rounded logo" src="App/images/logo-fiat.png" alt="Logo Fiat"/></a><button class="navbar-toggler" id="button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse ms-navbar-collapse" id="navbarSupportedContent"><ul class="navbar-nav m-auto"><li class="nav-item"><a class="nav-link" id="menu" href="#principal">MODELOS</a></li><li class="nav-item"><a class="nav-link" id="menu1" href="#principal">PRUEBA DE MANEJO</a></li><li class="nav-item"><a class="nav-link" id="menu2" href="#cotizar">COTIZAR</a></li><li class="nav-item"><a class="nav-link" id="menu3" href="#principal">PROMOCIONES</a></li><li class="nav-item"><a class="nav-link" id="menu4" href="#principal">DISTRIBUIDORES</a></li></ul><li class="nav-item nav-link menus"><div><img src="App/images/menu.png" height="18px"/></div></li></div></div></nav><section class="primera"><section class="principal" id="principal"><br/><div class="cotizador">Cotizador</div><h3 class="description"><span class="line"></span>Citadino, Aventurero, Deportivo<span class="line"></span></h3><div class="text-elegir">Elige el tuyo</div><div class="contenedor"><img class="auto" src="App/images/fiat.png" alt=""/></div></section><section class="segunda"><section class="cotizar"><div class="formulario" id="cotizar"><div class="row mb-1 inicial"><div class="col-lg-6 col-md-6 col-ms-12 inicial" id="modelo"><form><div class="form-group"><label class="titulo ml-1" for="formGroupExampleInput">MODELO</label><select class="etiqueta custom-select custom-select-lg mb-3 forma indice"><option selected="">SELECCIONA</option><option value="1">MODELO 1</option><option value="2">MODELO 2</option><option value="3">MODELO 3</option></select></div></form></div><div class="col-lg-6 col-md-6 col-ms-12 inicial"><form><div class="form-group"><label class="titulo ml-1" for="formGroupExampleInput">VERSION</label><select class="etiqueta custom-select custom-select-lg mb-3 forma indice"><option selected="">SELECCIONA</option><option value="1">VERSION 0.1</option><option value="2">VERSION 0.2</option><option value="3">VERSION 0.3</option></select></div></form></div></div><div class="row mb-1"><div class="col-lg-6 col-md-6 col-ms-12"><form><div class="form-group"><label class="titulo ml-1" for="formGroupExampleInput">ESTADO</label><select class="etiqueta custom-select custom-select-lg mb-3 forma indice"><option selected="">SELECCIONA</option><option value="1">MEXICO</option><option value="2">JALISCO</option><option value="3">COAHUILA</option></select></div></form></div><div class="col-lg-6 col-md-6 col-ms-12"><form><div class="form-group"><label class="titulo ml-1" for="formGroupExampleInput">DISTRIBUIDOR</label><select class="etiqueta custom-select custom-select-lg mb-3 forma indice"><option selected="">SELECCIONA</option><option value="1">DISTRIBUIDOR 1</option><option value="2">DISTRIBUIDOR 2</option><option value="3">DISTRIBUIDOR 3</option></select></div></form></div></div><div class="row mb-4"><div class="col-12 text-center"><h3 class="datos text-center"><span class="line-datos"></span>Datos personales<span class="line-datos"></span></h3><p>ESCRIBE TUS DATOS PERSONALES</p></div></div><div class="row mb-4"><div class="col-lg-4 col-md-4 col-ms-12"><form><div class="form-group"><label class="titulo ml-1" for="formGroupExampleInput">NOMBRE (S)</label><input class="etiqueta form-control forma" type="text" placeholder="ESCRIBE TU NOMBRE"/></div></form></div><div class="col-lg-4 col-md-4 col-ms-12"><form><div class="form-group"><label class="titulo ml-1" for="formGroupExampleInput">APELLIDO PATERNO</label><input class="etiqueta form-control forma" type="text" placeholder="ESCRIBE TU APELLIDO"/></div></form></div><div class="col-lg-4 col-md-4 col-ms-12"><form><div class="form-group"><label class="titulo ml-1" for="formGroupExampleInput">APELLIDO MATERNO</label><input class="etiqueta form-control forma" type="text" placeholder="ESCRIBE TU APELLIDO"/></div></form></div></div><div class="row mb-4"><div class="col-lg-4 col-md-4 col-ms-12"><form><div class="form-group"><label class="titulo ml-1" for="formGroupExampleInput">EMAIL</label><input class="etiqueta form-control forma" type="email" placeholder="CORREO@EMAIL.COM.MX"/></div></form></div><div class="col-lg-4 col-md-4 col-ms-12"><form><div class="form-group"><label class="titulo ml-1" for="formGroupExampleInput">TELEFONO</label><input class="etiqueta form-control forma" type="email" placeholder="01 . 844 . 439 . 0654"/></div></form></div></div><div class="row"><div class="col-lg-12 col-md-12 col-ms-12"><label class="titulo ml-1" for="formGroupExampleInput">DESEO SER CONTACTADO POR</label></div></div><div class="row contactar"><div class="col-4"><form><div class="form-group"><!-- <input type="button" id="bttelefono" class="etiqueta form-control forma" value="TELÉFONO"> --><button class="etiqueta forma" id="bttelefono" type="button"><img id="Img_telefono" src="App/images/telefono.png" width="10px"/> <img class="ocultar" id="phone_w" src="App/images/phone.png" width="13px"/>TELÉFONO</button></div></form></div><div class="col-4"><form><div class="form-group"><!-- <input type="button" id="btemail" class="etiqueta form-control forma" value="EMAIL"> --><button class="etiqueta forma" id="btemail" type="button"><img id="Img_mail" src="App/images/mail.png" width="14px" height="15px"/> <img class="ocultar" id="mail_w" src="App/images/mail_white.jpg" width="14px" height="10"/> EMAIL</button></div></form></div><div class="col-4"><form><div class="form-group"><button class="etiqueta forma" id="btambos" type="button">AMBOS</button></div></form></div></div><div class="row mb-4 mt-4"><div class="col-12 text-center"><h3 class="datos text-center"><span class="line-datos"></span>Forma de pago<span class="line-datos"></span></h3><p>PERSONALIZA TU COTIZACION</p></div></div><div class="row pago"><div class="col-12"><form><div><label class="titulo" for="formGroupExampleInput">ELIGE TU FORMA DE PAGO</label></div></form></div><div class="col-6"><form><div class="form-group"><!-- <input type="button" id="contado" class="etiqueta form-control forma text-center contacto" value=" CONTADO"> --><button class="etiqueta forma text-center contacto" id="contado" type="button">CONTADO</button></div></form></div><div class="col-6"><form><div class="form-group"><!-- <input type="button" id="credito" class="etiqueta form-control forma text-center contacto" value="CRÉDITO"> --><button class="etiqueta forma text-center contacto" id="credito" type="button">CRÉDITO</button></div></form></div></div><div class="row pago"><div class="col-lg-6 col-md-6 col-ms-12"><form><div class="form-group"><label class="titulo ml-3" for="formGroupExampleInput">CANTIDAD DE ENGANCHE</label><input class="etiqueta form-control forma" id="enganche" type="text" placeholder="$ 80.000.00"/></div></form></div><div class="col-lg-6 col-md-6 col-ms-12"><form><div class="form-group"><label class="titulo ml-3" for="formGroupExampleInput">PLAZO</label><select class="etiqueta custom-select custom-select-lg mb-3 forma indice"><option selected="">SELECCIONA</option><option value="1">12 MESES</option><option value="2">24 MESES</option><option value="3">48 MESES</option><option value="3">72 MESES</option></select></div></form></div></div><div class="row mb-1 mt-4"><div class="col-12 text-center"><h3 class="datos text-center"><span class="line-datos"></span>Comentarios<span class="line-datos"></span></h3><p>NOS IMPORTAN TUS COMENTARIOS</p></div></div><div class="row"><div class="col"><form><div class="form-group"><label class="titulo" for="formGroupExampleInput">¿DUDAS? ¿COMENTARIOS?</label><textarea class="form-control comentarios forma etiqueta" rows="8" placeholder="ESCRIBENOS"></textarea></div></form></div></div><div class="terminos mt-4"><div><input id="check1" type="checkbox"/><label class="etiqueta checks" for="check1">He leido y acepto el<a class="ancla" href="#">aviso de privacidad</a></label></div><div><input id="check2" type="checkbox"/><label class="checks" for="check2">No deseo recibir notificaciones</label><button class="btenvio forma" id="btenviar">ENVIAR</button></div></div></div></section></section></section><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="Marcos Vallejo"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="Marcos Vallejo"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="Marcos Vallejo"></script><script src="App/java/index.js"></script><footer></footer>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<title>Formulario Cotizacion</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i"/>
+<link rel="icon" type="images/png" href="App/images/logo-fiat.png"/>
+<link rel="stylesheet" href="App/css/Estilo.css"/>
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-light sticky-top" id="header">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img class="rounded logo" src="App/images/logo-fiat.png" alt="Logo Fiat"/>
+        </a>
+        <button class="navbar-toggler" id="button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item">
+                    <a class="nav-link" id="menu" href="#principal">MODELOS</a>
+                </li>
+                <li class="nav-item"><
+                    a class="nav-link" id="menu1" href="#principal">PRUEBA DE MANEJO</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" id="menu2" href="#cotizar">COTIZAR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menu3" href="#principal">PROMOCIONES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menu4" href="#principal">DISTRIBUIDORES</a>
+                </li>
+            </ul>
+            <li class="nav-item nav-link menus">
+                <div>
+                    <img src="App/images/menu.png" height="18px"/>
+                </div>
+            </li>
+        </div>
+    </div>
+</nav>
+<section class="primera">
+    <section class="principal" id="principal"><br/>
+        <div class="cotizador">Cotizador</div>
+        <h3 class="description">
+            <span class="line"></span>
+            Citadino, Aventurero, Deportivo
+            <span class="line"></span>
+        </h3><div class="text-elegir">Elige el tuyo</div>
+        <div class="contenedor">
+            <img class="auto" src="App/images/fiat.png" alt=""/>
+        </div>
+    </section>
+    <section class="segunda">
+        <section class="cotizar">
+            <div class="formulario" id="cotizar">
+                <div class="row mb-1 inicial">
+                    <div class="col-lg-6 col-md-6 col-ms-12 inicial" id="modelo">
+                        <form>
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput">MODELO</label>
+                                <select class="etiqueta custom-select custom-select-lg mb-3 forma indice">
+                                    <option selected="">SELECCIONA</option>
+                                    <option value="1">MODELO 1</option>
+                                    <option value="2">MODELO 2</option>
+                                    <option value="3">MODELO 3</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-ms-12 inicial">
+                        <form>
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput">VERSION</label>
+                                <select class="etiqueta custom-select custom-select-lg mb-3 forma indice">
+                                    <option selected="">SELECCIONA</option>
+                                    <option value="1">VERSION 0.1</option>
+                                    <option value="2">VERSION 0.2</option>
+                                    <option value="3">VERSION 0.3</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <div class="col-lg-6 col-md-6 col-ms-12">
+                        <form>
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput">ESTADO</label>
+                                <select class="etiqueta custom-select custom-select-lg mb-3 forma indice">
+                                    <option selected="">SELECCIONA</option>
+                                    <option value="1">MEXICO</option>
+                                    <option value="2">JALISCO</option>
+                                    <option value="3">COAHUILA</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-ms-12">
+                        <form>
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput">DISTRIBUIDOR</label>
+                                <select class="etiqueta custom-select custom-select-lg mb-3 forma indice">
+                                    <option selected="">SELECCIONA</option>
+                                    <option value="1">DISTRIBUIDOR 1</option>
+                                    <option value="2">DISTRIBUIDOR 2</option>
+                                    <option value="3">DISTRIBUIDOR 3</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-12 text-center">
+                        <h3 class="datos text-center">
+                            <span class="line-datos"></span>
+                            Datos personales
+                            <span class="line-datos"></span>
+                        </h3>
+                        <p>ESCRIBE TUS DATOS PERSONALES</p>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-4 col-md-4 col-ms-12">
+                        <form>
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput">NOMBRE (S)</label>
+                                <input class="etiqueta form-control forma" type="text" placeholder="ESCRIBE TU NOMBRE"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-ms-12">
+                        <form>
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput">APELLIDO PATERNO</label>
+                                <input class="etiqueta form-control forma" type="text" placeholder="ESCRIBE TU APELLIDO"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-ms-12">
+                        <form>
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput">APELLIDO MATERNO</label>
+                                <input class="etiqueta form-control forma" type="text" placeholder="ESCRIBE TU APELLIDO"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-4 col-md-4 col-ms-12">
+                        <form>
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput">EMAIL</label>
+                                <input class="etiqueta form-control forma" type="email" placeholder="CORREO@EMAIL.COM.MX"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-ms-12">
+                        <form>
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput">TELEFONO</label>
+                                <input class="etiqueta form-control forma" type="email" placeholder="01 . 844 . 439 . 0654"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-ms-12">
+                        <label class="titulo ml-1" for="formGroupExampleInput">DESEO SER CONTACTADO POR</label>
+                    </div>
+                </div>
+                <div class="row contactar">
+                    <div class="col-4">
+                        <form>
+                            <div class="form-group">
+                                <!-- <input type="button" id="bttelefono" class="etiqueta form-control forma" value="TELÉFONO"> -->
+                                <button class="etiqueta forma" id="bttelefono" type="button"><img id="Img_telefono" src="App/images/telefono.png" width="10px"/> <img class="ocultar" id="phone_w" src="App/images/phone.png" width="13px"/>TELÉFONO</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-4">
+                        <form>
+                            <div class="form-group">
+                                <!-- <input type="button" id="btemail" class="etiqueta form-control forma" value="EMAIL"> -->
+                                <button class="etiqueta forma" id="btemail" type="button"><img id="Img_mail" src="App/images/mail.png" width="14px" height="15px"/> <img class="ocultar" id="mail_w" src="App/images/mail_white.jpg" width="14px" height="10"/> EMAIL</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-4">
+                        <form>
+                            <div class="form-group">
+                                <button class="etiqueta forma" id="btambos" type="button">AMBOS</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mb-4 mt-4">
+                    <div class="col-12 text-center">
+                        <h3 class="datos text-center">
+                            <span class="line-datos"></span>
+                            Forma de pago
+                            <span class="line-datos"></span>
+                        </h3>
+                        <p>PERSONALIZA TU COTIZACION</p>
+                    </div>
+                </div>
+                <div class="row pago">
+                    <div class="col-12">
+                        <form>
+                            <div>
+                                <label class="titulo" for="formGroupExampleInput">ELIGE TU FORMA DE PAGO</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-6">
+                        <form>
+                            <div class="form-group">
+                                <!-- <input type="button" id="contado" class="etiqueta form-control forma text-center contacto" value=" CONTADO"> -->
+                                <button class="etiqueta forma text-center contacto" id="contado" type="button">CONTADO</button>
+                            </div>
+                        </form></div><div class="col-6"><form><div class="form-group">
+                            <!-- <input type="button" id="credito" class="etiqueta form-control forma text-center contacto" value="CRÉDITO"> -->
+                            <button class="etiqueta forma text-center contacto" id="credito" type="button">CRÉDITO</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row pago">
+                <div class="col-lg-6 col-md-6 col-ms-12">
+                    <form>
+                        <div class="form-group">
+                            <label class="titulo ml-3" for="formGroupExampleInput">CANTIDAD DE ENGANCHE</label>
+                            <input class="etiqueta form-control forma" id="enganche" type="text" placeholder="$ 80.000.00"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-md-6 col-ms-12">
+                    <form>
+                        <div class="form-group">
+                            <label class="titulo ml-3" for="formGroupExampleInput">PLAZO</label>
+                            <select class="etiqueta custom-select custom-select-lg mb-3 forma indice">
+                                <option selected="">SELECCIONA</option>
+                                <option value="1">12 MESES</option>
+                                <option value="2">24 MESES</option>
+                                <option value="3">48 MESES</option>
+                                <option value="3">72 MESES</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row mb-1 mt-4">
+                <div class="col-12 text-center">
+                    <h3 class="datos text-center">
+                        <span class="line-datos"></span>
+                        Comentarios
+                        <span class="line-datos"></span>
+                    </h3>
+                    <p>NOS IMPORTAN TUS COMENTARIOS</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <div class="form-group">
+                            <label class="titulo" for="formGroupExampleInput">¿DUDAS? ¿COMENTARIOS?</label>
+                            <textarea class="form-control comentarios forma etiqueta" rows="8" placeholder="ESCRIBENOS"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="terminos mt-4">
+                <div>
+                    <input id="check1" type="checkbox"/>
+                    <label class="etiqueta checks" for="check1">He leido y acepto el<a class="ancla" href="#">aviso de privacidad</a></label>
+                </div>
+                <div>
+                    <input id="check2" type="checkbox"/>
+                    <label class="checks" for="check2">No deseo recibir notificaciones</label>
+                    <button class="btenvio forma" id="btenviar">ENVIAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="Marcos Vallejo"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="Marcos Vallejo"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="Marcos Vallejo"></script>
+<script src="App/java/index.js"></script>
+<footer>
+    
+</footer>
