@@ -74,8 +74,8 @@ $btambos.addEventListener('click', (event) => {
     $btemail.classList.add('success')
     $mail.classList.add('mail_w')
     $mail.classList.remove('ocultar')
-    $phone.classList.add('phone_w')
     $Img_telefono.classList.add('ocultar')
+    $phone.classList.add('phone_w')
     $Img_mail.classList.add('ocultar')
    }
    else{
@@ -84,9 +84,9 @@ $btambos.addEventListener('click', (event) => {
       $mail.classList.remove('mail_w')
       $mail.classList.add('ocultar')
       $phone.classList.toggle('phone_w')
-    $phone.classList.remove('ocultar')
-    $Img_telefono.classList.toggle('ocultar')
-    $Img_mail.classList.remove('ocultar')
+      $phone.classList.remove('ocultar')
+      $Img_telefono.classList.toggle('ocultar')
+      $Img_mail.classList.remove('ocultar')
    }
 })
 

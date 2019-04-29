@@ -10,6 +10,8 @@ gulp.task('sass', function(){
 
 gulp.task('pug', function(){
     return gulp.src('App/pug/index.pug')
-    .pipe(pug())
+    .pipe(pug({
+        pretty: true
+    }))
     .pipe(gulp.dest('index'))
 })
