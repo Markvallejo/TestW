@@ -14,4 +14,9 @@ gulp.task('pug', function(){
         pretty: true
     }))
     .pipe(gulp.dest('index'))
-})
+});
+
+gulp.task('default', function(){
+    gulp.watch('./App/**/*.scss', gulp.series('sass'));
+    gulp.watch('./App/**/*.pug', gulp.series('pug'));
+});
