@@ -17,6 +17,6 @@ gulp.task('pug', function(){
 });
 
 gulp.task('default', function(){
-    gulp.watch('./App/**/*.scss', gulp.series('sass'));
-    gulp.watch('./App/**/*.pug', gulp.series('pug'));
+    gulp.watch('App/scss/Estilo.scss', gulp.series('sass'));
+    gulp.watch('App/pug/index.pug', gulp.series('pug'));
 });
